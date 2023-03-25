@@ -1,67 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BrainWork Tutors</title>
-  <link rel="stylesheet" href="styles.css">
+	<title>BrainWork Tutors - Private Tutoring Service</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f8f8f8;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 1rem;
+		}
+
+		header {
+			background-color: #343a40;
+			color: #fff;
+			padding: 1rem;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 2.5rem;
+			margin-bottom: 2rem;
+		}
+
+		.services {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 3rem;
+		}
+
+		.service {
+			flex-basis: 30%;
+			padding: 1rem;
+			border-radius: 5px;
+			background-color: #fff;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+			text-align: center;
+			transition: transform 0.3s ease-in-out;
+		}
+
+		.service:hover {
+			transform: translateY(-5px);
+		}
+
+		.service h2 {
+			font-size: 1.5rem;
+			margin-bottom: 1rem;
+		}
+
+		.service p {
+			font-size: 1.2rem;
+			margin-bottom: 1rem;
+		}
+
+		form {
+			background-color: #fff;
+			padding: 2rem;
+			border-radius: 5px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+			text-align: center;
+			margin-bottom: 3rem;
+		}
+
+		form label {
+			display: block;
+			font-size: 1.2rem;
+			margin-bottom: 0.5rem;
+			text-align: left;
+		}
+
+		form input[type="text"], form input[type="email"], form textarea {
+			width: 100%;
+			padding: 0.5rem;
+			margin-bottom: 1rem;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+			font-size: 1.2rem;
+		}
+
+		form textarea {
+			height: 150px;
+			resize: vertical;
+		}
+
+		form button {
+			display: inline-block;
+			padding: 1rem 2rem;
+			border-radius: 5px;
+			background-color: #343a40;
+			color: #fff;
+			border: none;
+			font-size: 1.2rem;
+			cursor: pointer;
+			transition: transform 0.3s ease-in-out;
+		}
+
+		form button:hover {
+			transform: translateY(-5px);
+		}
+
+	</style>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <main>
-    <section class="hero-section">
-      <h1>Private Tutoring Services</h1>
-      <p>Get the personalized attention you need to succeed with BrainWork Tutors.</p>
-      <a href="#" class="cta-btn">Learn More</a>
-      <div class="animated-box"></div>
-    </section>
-    
-    <section class="services-section">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Math Tutoring</li>
-        <li>Science Tutoring</li>
-        <li>English Tutoring</li>
-        <li>Test Prep</li>
-      </ul>
-    </section>
-    
-    <section class="about-section">
-      <h2>About Us</h2>
-      <p>BrainWork Tutors has been providing top-quality private tutoring services for over 10 years. Our experienced tutors are dedicated to helping students achieve their academic goals and succeed in school.</p>
-    </section>
-    
-    <section class="contact-section">
-      <h2>Contact Us</h2>
-      <form action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </main>
-  
-  <footer>
-    <p>&copy; 2023 BrainWork Tutors. All rights reserved.</p>
-  </footer>
-  
-  <script src="main.js"></script>
-</body>
-</html>
+	<header>
+		<h1>BrainWork Tutors</h1>
+		<p>Private Tutoring Service</p>
+	</header>
+
+	<div class="container">
+		<p>At BrainWork Tutors
