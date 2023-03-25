@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BrainWork Tutors</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
@@ -22,6 +23,7 @@
       <h1>Private Tutoring Services</h1>
       <p>Get the personalized attention you need to succeed with BrainWork Tutors.</p>
       <a href="#" class="cta-btn">Learn More</a>
+      <div class="animated-box"></div>
     </section>
     
     <section class="services-section">
@@ -57,8 +59,9 @@
   </main>
   
   <footer>
-    <p>Copyright © 2023 BrainWork Tutors.
-    All rights reserved.</p>
+    <p>&copy; 2023 BrainWork Tutors. All rights reserved.</p>
   </footer>
+  
+  <script src="main.js"></script>
 </body>
 </html>
